@@ -1,0 +1,25 @@
+.countries-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    /* Add styles for margins, borders, etc. as needed */
+  }
+  
+  .loading-message,
+  .error-message {
+    margin-bottom: 10px;
+    /* Add styles for font styles, colors, etc. */
+  }
+  
+  .countries-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap; /* Enable wrapping on smaller screens */
+  }
+  
+  .country-item{
+    
+  }
