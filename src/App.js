@@ -15,7 +15,7 @@ const App = () => {
     setError(null);
 
     try {
-      const response = await axios.get(`http://api.weatherapi.com/v1/current.json?key=${API_KEY}&q=${city}`);
+      const response = await axios.get(`https://api.weatherapi.com/v1/current.json?key=${API_KEY}&q=${city}`);
       setWeatherData(response.data);
     } catch (error) {
       setError("Failed to fetch weather data");
